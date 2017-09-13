@@ -1,0 +1,18 @@
+2017-09-12 14:05:02.203 CST [4230] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2017-09-12 14:05:02.204 CST [4230] LOG:  listening on IPv6 address "::", port 5432
+2017-09-12 14:05:02.313 CST [4230] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-09-12 14:05:02.535 CST [4234] LOG:  database system was shut down at 2017-09-12 12:13:41 CST
+2017-09-12 14:05:02.613 CST [4230] LOG:  database system is ready to accept connections
+2017-09-12 14:42:44.751 CST [8095] ERROR:  relation "rango_session" does not exist at character 15
+2017-09-12 14:42:44.751 CST [8095] STATEMENT:  select * from rango_session
+	;
+2017-09-12 14:43:18.096 CST [8095] ERROR:  relation "rango_sessions" does not exist at character 15
+2017-09-12 14:43:18.096 CST [8095] STATEMENT:  select * from rango_sessions;
+2017-09-12 14:48:02.532 CST [8095] ERROR:  relation "sessions" does not exist at character 15
+2017-09-12 14:48:02.532 CST [8095] STATEMENT:  select * from sessions;
+2017-09-12 14:48:05.540 CST [8095] ERROR:  relation "session" does not exist at character 15
+2017-09-12 14:48:05.540 CST [8095] STATEMENT:  select * from session;
+2017-09-12 20:22:57.975 CST [4230] LOG:  worker process: logical replication launcher (PID 4240) exited with exit code 1
+2017-09-12 20:22:57.975 CST [4230] LOG:  received smart shutdown request
+2017-09-12 20:22:58.094 CST [4235] LOG:  shutting down
+2017-09-12 20:22:58.317 CST [4230] LOG:  database system is shut down
